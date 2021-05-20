@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Official-ChESS</title>
+    <!-- <link rel="stylesheet" href="login.css" /> -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-auth.js"></script>
+
+<link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.0/firebase-ui-auth.css" />
+<style>
+    .mdl-card {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 200px;
+    overflow: hidden;
+    width: 330px;
+    z-index: 1;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.header {
+    margin: 50px 570px;
+    display: flex;
+    font-family: 'Roboto';
+    flex-wrap: nowrap;
+    flex-direction: initial;
+    width: 500px;
+}
+</style>
+</head>
+<body>
+   <div class="header">  <h1>Sign in to Continue</h1></div>
+     <div id="firebaseui-auth-container"></div>
+     <div id="loader">Loading...</div>
+
+    <script src="fireBase.js"></script>
+    <script src='login.js'></script>
+</body>
+</html>
