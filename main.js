@@ -13,8 +13,10 @@ var mainApp = {};
       });
 
       function logOut(){
+        window.open('index.html','_self',false);
+        window.open('index.html','_self');
           firebase.auth().signOut();
-          window.open('home.html','_self',false)
+          
       }
 
       mainApp.logOut = logOut;
